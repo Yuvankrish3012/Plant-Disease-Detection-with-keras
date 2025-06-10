@@ -54,7 +54,7 @@ Edit
 The app allows users to upload a `.jpg/.png` leaf image and returns the predicted disease label.
 
 ### 🔧 Core UI Code (Snippet)
-```python
+ python
 model = load_model("cnn_model.h5")
 label_binarizer = pickle.load(open("label_transform.pkl", "rb"))
 
@@ -64,6 +64,7 @@ if uploaded_file:
     prediction = model.predict(image_data)
     predicted_label = label_binarizer.classes_[np.argmax(prediction)]
     st.success(f"Predicted Disease: {predicted_label}")
+    
 # 🖼️ Streamlit GUI Demo
 
 # https://drive.google.com/file/d/1qy0lZJ9z6RZpomexkSLO2eHPWhFpYQoT/view?usp=sharing
