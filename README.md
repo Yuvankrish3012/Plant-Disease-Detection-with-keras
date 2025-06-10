@@ -64,9 +64,9 @@ if uploaded_file:
     prediction = model.predict(image_data)
     predicted_label = label_binarizer.classes_[np.argmax(prediction)]
     st.success(f"Predicted Disease: {predicted_label}")
-🖼️ Streamlit GUI Demo
+# 🖼️ Streamlit GUI Demo
 
-https://drive.google.com/file/d/1qy0lZJ9z6RZpomexkSLO2eHPWhFpYQoT/view?usp=sharing
+# https://drive.google.com/file/d/1qy0lZJ9z6RZpomexkSLO2eHPWhFpYQoT/view?usp=sharing
 
 🚀 How to Run Locally
 bash
