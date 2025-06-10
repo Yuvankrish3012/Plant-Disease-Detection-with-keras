@@ -4,6 +4,10 @@ This project detects plant leaf diseases using a custom-trained Convolutional Ne
 
 ---
 
+## CNN MODEL FILE
+## https://drive.google.com/file/d/1Aa26Y_uh4wzSq10xHVZBV85neO96XpXk/view?usp=sharing
+---
+
 ## 📌 Features
 
 - 🔍 Classifies 15 types of plant leaf diseases
